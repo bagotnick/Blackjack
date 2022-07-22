@@ -30,7 +30,7 @@ def playgame():
                 usercards.remove(11)
                 usertotal = sum(usercards)
         if usertotal < 22:
-            print(f"Your score is currently {usertotal}")
+            print(f"Your score is currently {usertotal} with the cards: {usercards}")
             hitorstand = input("hit or stand? ")
         if usertotal > 21:
             hitorstand = "stand"
